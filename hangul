@@ -1,0 +1,11 @@
+1. sudo apt-get install fcitx-hangul
+2. System Settings > Language Support에서 나머지 설치 & Keyboard input method system:을 ibus가 아닌 fcitx로 변경
+3. sudo reboot
+4. AllSettings > Keyboard > Shortcuts Tab > Typing을 선택
+5. Switch to Next source, Switch to Previous source, Alternative Characters Key를 모두 Disabled, compose Key는 right alt
+6. 상단 메뉴바 오른쪽의 fcitx아이콘을 눌러서 Configure Current Input Method를 선택 후 +를 눌러 Hangul을 추가 (Uncheck “Only Show Current Language”)
+7. Global Config tab에서 Trigger Input Method는 한/영키를 눌러 Multikey로 설정(왼쪽 오른쪽 모두)
+8. Extrakey for trigger input method는 Disabled로 설정
+9. log out and log in
+
+출처: http://hochulshin.com/ubuntu-1604-hangul/
